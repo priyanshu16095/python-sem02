@@ -1,0 +1,14 @@
+len(list) is general purpose function in python, it is a built in function in python
+that is used to find the lenght of the object
+
+list.append() is a function that is associated with list
+
+Some general function in python are:
+len(iterable)
+min(iterable)
+max(iterable)
+type(object)
+abs(x)
+sum(iterable, start=0)
+sorted(iterable)
+sorted(iterable, reverse=true)
