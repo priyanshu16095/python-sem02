@@ -1,8 +1,3 @@
-len(list) is general purpose function in python, it is a built in function in python
-that is used to find the lenght of the object
-
-list.append() is a function that is associated with list
-
 Some general function in python are:
 len(iterable)
 min(iterable)
