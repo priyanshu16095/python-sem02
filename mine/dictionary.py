@@ -1,24 +1,21 @@
-dict1 = {}
-dict1 = {"apple": 1, "banana": 2, "mango": 5}
-
-if "apple" in dict1:
-    print("Present")
-
-dict1["watermelon"] = 11 #adding a new key pair
-
-# dict1.update(dict2)
-
-dict1.pop("apple") #remove and return the value associated with key
-dict1.popitem()
-
-del dict1
-dict1.clear()
-
-dict1.keys()
-dict1.values()
-dict1.items()
-
-dict2 = dict1.copy()
+dict1 = {'mango': 5, 'apple': 2, 'banana': 8, 'grapes': 1}
 dict2 = dict(dict1)
+dict3 = dict1.copy()
 
+dict1['mango']
+dict1['mango'] = 6
+dict1['watermelon'] = 3
+
+max(dict1,  key=dict1.get)
+min(dict1,  key=dict1.get)
 len(dict1)
+
+if 'mango' in dict1:
+    print("Present")
+    
+dict1.keys()    # Returns a list 
+dict1.values()  # Returns a list
+dict1.items()   # Returns a list of tuples
+
+dict1.clear()
+del dict1
