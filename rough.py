@@ -1,5 +1,3 @@
-total = 0
-while total < 50:
-    num = int(input("Enter the number: "))
-    total += num
-print(total)
+a = [7, 8, 1, 2, 3, 4, 8, 1]
+b = set(a)
+print(b)

@@ -1,22 +1,19 @@
-tuple1 = ()
-tuple1 = (1, 2, 3)
+tuple1 = (7, 8, 1, 2, 3)
+tuple2 = (11, 15)
 
-tuple1[1] #index
+list1 = tuple1 + tuple2
+tuple3 = tuple1 + tuple2
+tuple4 = tuple1 * 2     # (7, 8, 1, 2, 3, 7, 8, 1, 2, 3)
+
+tuple1[0]
+tuple1[0:4]
+tuple1.count(8)
+tuple1.index(8)
+max(tuple1)
+min(tuple1)
+len(tuple1)
 
 if 2 in tuple1:
     print("Present")
-else:
-    print("Not present")
-
-tuple1.index(2) #returns the index
-tuple1.count(2)
-
-tuple2 = (4, 5, 6)
-newTuple = tuple1 + tuple2 #concatination of tuples
-newTuple = tuple1 * 3
-
-a, b, c = tuple1 #unpacking the tuple
-
-len(tuple1)
-min(tuple1)
-max(tuple1)
+    
+a, b = tuple2

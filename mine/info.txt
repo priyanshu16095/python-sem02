@@ -1,9 +1,0 @@
-Some general function in python are:
-len(iterable)
-min(iterable)
-max(iterable)
-type(object)
-abs(x)
-sum(iterable, start=0)
-sorted(iterable)
-sorted(iterable, reverse=true)
